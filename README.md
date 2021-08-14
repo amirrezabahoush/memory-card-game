@@ -1,1 +1,2 @@
-# memory-card-game
+This is memory card game.
+Enjoy it!
