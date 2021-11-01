@@ -33,8 +33,8 @@ function Game() {
   }
 
   const onClick = e => {
-    const attributtes = Array.from(e.currentTarget.attributes);
-    const dataTestId = attributtes.find(item => item.name === 'data-testid');
+    const attributes = Array.from(e.currentTarget.attributes);
+    const dataTestId = attributes.find(item => item.name === 'data-testid');
     const card = cards.filter(item => item.id === +dataTestId?.value);
 
     const newCardsList = cards.map(item => {
